@@ -12,7 +12,7 @@ public class Seller {
 
 	public void printCatalog() {
 		GeekyStoreIterator geekyStoreIterator = geekyStore.createIterator();
-		System.out.println("Printing Catalog .... \n");
+		System.out.println("Printing GeekyStore Catalog .... \n");
 		printCatalog(geekyStoreIterator);
 
 		DevStoreIterator devStoreIterator = devStore.createIterator();
